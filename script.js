@@ -13,6 +13,7 @@ function clickCheck() {
   } else if (guess === secretNumber) {
     document.querySelector('.number').textContent = secretNumber;
     document.querySelector('.message').textContent = '🎉 Correct! 🎉';
+    document.querySelector('.message').style.fontSize = '4rem';
     document.querySelector('body').style.backgroundColor = '#60b347';
 
     if (scoreValue > highScore) {
@@ -45,6 +46,7 @@ function clickAgain() {
   document.querySelector('.score').textContent = scoreValue;
 
   document.querySelector('.message').textContent = 'Start guessing...';
+  document.querySelector('.message').style.fontSize = '2rem';
   if (!guess) {
     document.querySelector('.message').textContent =
       '⚠️ Please, insert a number!';
