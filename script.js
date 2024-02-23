@@ -56,7 +56,8 @@ function clickAgain() {
 function gameOver() {
   if (scoreValue === 0) {
     document.querySelector('.message').textContent = '💥 GAME OVER!!! 💥';
-    document.querySelector('body').style.backgroundColor = 'rgb(255, 40, 40)';
+    document.querySelector('.message').style.fontSize = '4rem';
+    document.querySelector('body').style.backgroundColor = 'rgb(255, 82, 82)';
   } else if (scoreValue < 0) {
     clickAgain();
   }
