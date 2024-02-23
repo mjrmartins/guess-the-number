@@ -69,10 +69,8 @@ h1 {
 }
 
 .between {
-  font-size: 1.4rem;
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
+  font-size: 1.6rem;
+  margin-bottom: 1.8rem;
 }
 
 .again {
